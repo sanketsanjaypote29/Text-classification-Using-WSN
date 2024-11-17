@@ -4,7 +4,7 @@ import numpy as np
 import pandas as pd
 
 # Importing functions from the Streamlit application
-from app import predict_emotions, get_prediction_proba  # Replace 'app' with the actual script name if different
+from server import predict_emotions, get_prediction_proba  # Replace 'app' with the actual script name if different
 
 class TestEmotionDetection(unittest.TestCase):
     def setUp(self):
